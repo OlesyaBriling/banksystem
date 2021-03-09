@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4B0082;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.accenture.practice.secondProject.controller.ManagerWarehouseMenu">
+    <children>
+        <AnchorPane layoutY="100.0" prefHeight="559.0" prefWidth="1000.0" style="-fx-background-color: #E6E6FA;">
+            <children>
+                <Button id="SgnIn" fx:id="PostavkaNaSklad" layoutX="253.0" layoutY="101.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="221.0" style="-fx-background-color: #E6E6FA; -fx-border-color: #4B0082; -fx-border-radius: 5;" text="Поставки на склад " textFill="#480080">
+                    <font>
+                        <Font name="Constantia" size="20.0" />
+                    </font>
+                </Button>
+                <Button id="SgnIn" fx:id="OtpravkaVMagazin" layoutX="527.0" layoutY="101.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="221.0" style="-fx-background-color: #E6E6FA; -fx-border-color: #4B0082; -fx-border-radius: 5;" text="Отправки в магазин" textFill="#480080">
+                    <font>
+                        <Font name="Constantia" size="20.0" />
+                    </font>
+                </Button>
+                <Button id="SgnIn" fx:id="TovarNaSklade" layoutX="253.0" layoutY="271.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="221.0" style="-fx-background-color: #E6E6FA; -fx-border-color: #4B0082; -fx-border-radius: 5;" text="Товары на складе" textFill="#480080">
+                    <font>
+                        <Font name="Constantia" size="20.0" />
+                    </font>
+                </Button>
+                <Button id="SgnIn" fx:id="Chat" layoutX="527.0" layoutY="271.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="221.0" style="-fx-background-color: #E6E6FA; -fx-border-color: #4B0082; -fx-border-radius: 5;" text="Чат" textFill="#480080">
+                    <font>
+                        <Font name="Constantia" size="20.0" />
+                    </font>
+                </Button>
+                <Label layoutX="831.0" layoutY="521.0" text="Управляющий склада" textFill="INDIGO" />
+            </children></AnchorPane>
+        <Label layoutX="402.0" layoutY="14.0" text="ToyStore" textFill="LAVENDER">
+            <font>
+                <Font name="Constantia" size="50.0" />
+            </font>
+        </Label>
+        <Button id="SgnIn" fx:id="Exit" layoutX="22.0" layoutY="21.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="94.0" style="-fx-background-color: #4B0082; -fx-border-color: #E6E6FA; -fx-border-radius: 5;" text="Выход" textFill="LAVENDER">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
